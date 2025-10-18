@@ -10,19 +10,19 @@ const Landing: React.FC =  () => {
       <section>
         <h2 className="text-lg font-semibold">Sizes</h2>
         <div className="flex gap-3 mt-3">
-          <Button title="Small" size="small" styles="bg-blue-600b text-white rounded-sm" />
-          <Button title="Medium" size="medium" styles="bg-green-600 text-white rounded-md" />
-          <Button title="Large" size="large" styles="bg-purple-600 text-white rounded-full" />
-          <Button title="Extra Large" size="extraLarge" styles="bg-red-600 text-white rounded-full" />
+          <Button title="rounded-sm" size="rounded-sm" styles="bg-blue-600b text-white rounded-sm" />
+          <Button title="rounded-md" size="rounded-md" styles="bg-green-600 text-white rounded-md" />
+          <Button title="rounded-lg" size="rounded-lg" styles="bg-purple-600 text-white rounded-lg" />
+          <Button title="rounded-full" size="rounded-full" styles="bg-red-600 text-white rounded-full" />
         </div>
       </section>
 
       <section>
         <h2 className="text-lg font-semibold">Shapes</h2>
         <div className="flex gap-3 mt-3">
-          <Button title="Rounded-sm" size="medium" styles="bg-slate-700 text-white rounded-sm" />
-          <Button title="Rounded-md" size="medium" styles="bg-slate-700 text-white rounded-md" />
-          <Button title="Rounded-full" size="medium" styles="bg-slate-700 text-white rounded-full" />
+          <Button title="Rounded-sm" size="rounded-sm" styles="bg-slate-700 text-white rounded-sm" />
+          <Button title="Rounded-md" size="rounded-md" styles="bg-slate-700 text-white rounded-md" />
+          <Button title="Rounded-full" size="rounded-full" styles="bg-slate-700 text-white rounded-full" />
         </div>
       </section>
     </div>
