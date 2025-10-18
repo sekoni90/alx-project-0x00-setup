@@ -7,5 +7,9 @@
     "build": "npm --prefix ./alx-project-0x00 run build",
     "start": "npm --prefix ./alx-project-0x00 run start",
     "lint": "npm --prefix ./alx-project-0x00 run lint"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.14",
+    "tailwindcss": "^4.1.14"
   }
 }

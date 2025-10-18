@@ -8,6 +8,6 @@ export interface ButtonProps {
   styles: string;
   className?: string;
   onClick?: () => void;
-    size?: 'small' | 'medium' | 'large';
+  size?: 'small' | 'medium' | 'large' | 'extraLarge';
 }
 
