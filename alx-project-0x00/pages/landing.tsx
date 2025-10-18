@@ -10,18 +10,18 @@ const Landing: React.FC =  () => {
       <section>
         <h2 className="text-lg font-semibold">Sizes</h2>
         <div className="flex gap-3 mt-3">
-          <Button title="Small" size="small" className="bg-blue-600 text-white rounded-sm" />
-          <Button title="Medium" size="medium" className="bg-green-600 text-white rounded-md" />
-          <Button title="Large" size="large" className="bg-purple-600 text-white rounded-full" />
+          <Button title="Small" size="small" styles="bg-blue-600 text-white rounded-sm" />
+          <Button title="Medium" size="medium" styles="bg-green-600 text-white rounded-md" />
+          <Button title="Large" size="large" styles="bg-purple-600 text-white rounded-full" />
         </div>
       </section>
 
       <section>
         <h2 className="text-lg font-semibold">Shapes</h2>
         <div className="flex gap-3 mt-3">
-          <Button title="Rounded-sm" size="medium" className="bg-slate-700 text-white rounded-sm" />
-          <Button title="Rounded-md" size="medium" className="bg-slate-700 text-white rounded-md" />
-          <Button title="Rounded-full" size="medium" className="bg-slate-700 text-white rounded-full" />
+          <Button title="Rounded-sm" size="medium" styles="bg-slate-700 text-white rounded-sm" />
+          <Button title="Rounded-md" size="medium" styles="bg-slate-700 text-white rounded-md" />
+          <Button title="Rounded-full" size="medium" styles="bg-slate-700 text-white rounded-full" />
         </div>
       </section>
     </div>

@@ -11,13 +11,13 @@ const sizeMap: Record<string, string> = {
 
 const Button: React.FC<ButtonProps & { size?: 'small' | 'medium' | 'large' }>= ({
   title,
-  className = '',
+  styles,
   onClick,
   size = 'medium'
 }) => {
   const sizeClass = sizeMap[size] || sizeMap.medium
   return (
-    <button onClick={onClick} className={`${base} ${sizeClass} ${className}`}>
+    <button onClick={onClick} className={`${base} ${sizeClass} ${styles}`}>
       {title}
     </button>
   )
