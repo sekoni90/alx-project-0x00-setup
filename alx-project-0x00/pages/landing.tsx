@@ -5,7 +5,6 @@ const Landing: React.FC =  () => {
   return (
     <div className="p-6 space-y-6">
       <h1 className=" text-xl font-extralight">Landing Page</h1>
-  {/* example buttons are shown in the sections below */}
       <Card />
 
       <section>
