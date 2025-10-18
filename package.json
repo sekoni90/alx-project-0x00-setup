@@ -1,0 +1,11 @@
+{
+  "name": "alx-project-0x00-setup",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix ./alx-project-0x00 run dev",
+    "build": "npm --prefix ./alx-project-0x00 run build",
+    "start": "npm --prefix ./alx-project-0x00 run start",
+    "lint": "npm --prefix ./alx-project-0x00 run lint"
+  }
+}
