@@ -6,8 +6,8 @@ import Pill from "./Pill"
 const Card: React.FC = () => {
 
  return (
-    <div className="h-[422px] w-[378.56px] cursor-pointer hover:shadow-md hover:rounded-lg ">
-  <Image className="rounded-lg" src="/assets/images/house.png" width={379} height={299} alt="house image" />
+    <div className="h-[422px] w-[378.56px] cursor-pointer hover:shadow-md hover:rounded-md ">
+  <Image className="rounded-md" src="/assets/images/house.png" width={379} height={299} alt="house image" />
       <div className="p-2 flex gap-2 mt-2 text-[#000]">
         <Pill title="Top Villa" />
         <Pill title="Self CheckIn" />
